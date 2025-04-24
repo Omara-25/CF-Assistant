@@ -1,0 +1,40 @@
+name: mai_voice_assistant
+description: A Flutter voice assistant app with Flowise integration.
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  flutter_launcher_icons: ^0.13.1  
+  provider: ^6.1.1
+  lottie: ^2.5.0
+  speech_to_text: ^6.5.1
+  flutter_tts: ^3.8.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  url_launcher: ^6.2.2
+  permission_handler: ^10.2.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/mai.gif
+    - assets/CF-logo.gif
+    - assets/cf_logo.png
+    - assets/loading.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/cf_logo.png"   

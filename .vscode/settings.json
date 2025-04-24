@@ -1,0 +1,10 @@
+{
+    "git.ignoreLimitWarning": true,
+    "java.project.sourcePaths": [
+        "lib/screens"
+    ],
+    "cSpell.words": [
+        "dotenv",
+        "FLOWISE"
+    ]
+}
