@@ -422,9 +422,9 @@ You can customize the voice assistant's speech parameters:
 
   <h3>Made with ❤️ by the Critical Future Team</h3>
 
-  <p>© 2024 CodeFluent AI</p>
+  <p>© 2025 CriticalFutureGlobal</p>
   
-  <a href="https://codefluent.ai">
+  <a href="https://criticalfutureglobal.com/">
     <img src="https://img.shields.io/badge/Visit_Our_Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
 
