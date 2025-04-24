@@ -2,15 +2,25 @@
 
 <div align="center">
 
-  ![CF-Assistant Logo](assets/cf_logo.png)
+  <img src="assets/cf_logo.png" alt="CF-Assistant Logo" width="180" height="180"/>
 
-  <h3>Your AI-Powered Voice Assistant</h3>
+  <h1>Your AI-Powered Voice Assistant</h1>
 
-  <p>CF-Assistant is a Flutter-based voice assistant application that integrates with Flowise AI to provide a conversational interface. The app allows users to interact with AI through both text and voice inputs, making it versatile for various use cases.</p>
+  <p align="center">
+    CF-Assistant is a Flutter-based voice assistant application that integrates with Flowise AI to provide a conversational interface. The app allows users to interact with AI through both text and voice inputs, making it versatile for various use cases.
+  </p>
 
-  [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
-  [![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+  <p align="center">
+    <a href="https://flutter.dev/">
+      <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter"/>
+    </a>
+    <a href="https://dart.dev/">
+      <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT"/>
+    </a>
+  </p>
 
 </div>
 
@@ -102,11 +112,11 @@ Before you begin, ensure you have the following installed:
   <table>
     <tr>
       <td align="center">📦</td>
-      <td><a href="https://flutter.dev/docs/get-started/install"><b>Flutter SDK</b></a> (2.19.0 or higher)</td>
+      <td><a href="https://flutter.dev/docs/get-started/install"><b>Flutter SDK</b></a> (3.19.0 or higher)</td>
     </tr>
     <tr>
       <td align="center">🎯</td>
-      <td><a href="https://dart.dev/get-dart"><b>Dart SDK</b></a> (compatible with your Flutter version)</td>
+      <td><a href="https://dart.dev/get-dart"><b>Dart SDK</b></a> (3.0.0 or higher)</td>
     </tr>
     <tr>
       <td align="center">🧰</td>
@@ -114,7 +124,7 @@ Before you begin, ensure you have the following installed:
     </tr>
     <tr>
       <td align="center">☁️</td>
-      <td><b>A Flowise AI instance</b> (for backend AI processing)</td>
+      <td><a href="https://github.com/FlowiseAI/Flowise"><b>A Flowise AI instance</b></a> (for backend AI processing)</td>
     </tr>
   </table>
 </div>
@@ -128,7 +138,7 @@ Before you begin, ensure you have the following installed:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/CF-Assistant.git
+git clone https://github.com/Omara-25/CF-Assistant.git
 cd CF-Assistant
 ```
 
@@ -283,7 +293,7 @@ You can customize the voice assistant's speech parameters:
     </tr>
     <tr>
       <td align="center">┃  ┗━ 📄</td>
-      <td><b>signup_screen.dart</b> - User registration</td>
+      <td><b>sign_up_screen.dart</b> - User registration</td>
     </tr>
     <tr>
       <td align="center">┣━ 📁</td>
@@ -299,7 +309,7 @@ You can customize the voice assistant's speech parameters:
     </tr>
     <tr>
       <td align="center">┃  ┣━ 📄</td>
-      <td><b>Live_voice_chat.dart</b> - Live voice chat component</td>
+      <td><b>live_voice_chat.dart</b> - Live voice chat component</td>
     </tr>
     <tr>
       <td align="center">┃  ┣━ 📄</td>
@@ -323,11 +333,39 @@ You can customize the voice assistant's speech parameters:
     </tr>
     <tr>
       <td align="center">┃  ┣━ 📄</td>
-      <td><b>voice-settings.dart</b> - Voice configuration options</td>
+      <td><b>voice_settings.dart</b> - Voice configuration options</td>
     </tr>
     <tr>
       <td align="center">┃  ┗━ 📄</td>
       <td><b>footer_widget.dart</b> - App footer component</td>
+    </tr>
+    <tr>
+      <td align="center">┣━ 📁</td>
+      <td><b>services/</b> - Backend services and API integrations</td>
+    </tr>
+    <tr>
+      <td align="center">┃  ┣━ 📄</td>
+      <td><b>flowise_service.dart</b> - Flowise AI API integration</td>
+    </tr>
+    <tr>
+      <td align="center">┃  ┣━ 📄</td>
+      <td><b>speech_service.dart</b> - Speech recognition and synthesis</td>
+    </tr>
+    <tr>
+      <td align="center">┃  ┗━ 📄</td>
+      <td><b>storage_service.dart</b> - Local storage management</td>
+    </tr>
+    <tr>
+      <td align="center">┣━ 📁</td>
+      <td><b>utils/</b> - Utility functions and helpers</td>
+    </tr>
+    <tr>
+      <td align="center">┃  ┣━ 📄</td>
+      <td><b>constants.dart</b> - App-wide constants</td>
+    </tr>
+    <tr>
+      <td align="center">┃  ┗━ 📄</td>
+      <td><b>helpers.dart</b> - Helper functions</td>
     </tr>
     <tr>
       <td align="center">┗━ 📄</td>
@@ -350,7 +388,7 @@ You can customize the voice assistant's speech parameters:
 
 <div align="center">
 
-  ### Contributions are welcome! Please feel free to submit a Pull Request.
+  <h3>Contributions are welcome! Please feel free to submit a Pull Request.</h3>
 
 </div>
 
@@ -364,13 +402,17 @@ You can customize the voice assistant's speech parameters:
 
 </div>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"/>
+</div>
+
 <br>
 
 ## 📄 License
 
 <div align="center">
 
-  ### This project is licensed under the MIT License - see the LICENSE file for details.
+  <h3>This project is licensed under the MIT License - see the LICENSE file for details.</h3>
 
 </div>
 
@@ -378,10 +420,12 @@ You can customize the voice assistant's speech parameters:
 
 <div align="center">
 
-  ### Made with ❤️ by the CF-Assistant Team
+  <h3>Made with ❤️ by the Critical Future Team</h3>
 
-  <p>© 2024 CF-Assistant</p>
+  <p>© 2024 CodeFluent AI</p>
+  
+  <a href="https://codefluent.ai">
+    <img src="https://img.shields.io/badge/Visit_Our_Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
+  </a>
 
 </div>
-#   C F - A s s i s t a n t  
- 
